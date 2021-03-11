@@ -3,7 +3,7 @@
     <div class="col"  *ngFor="let product of productList">
 
 
-      <app-product-item [productItem]="product" > </app-product-item>
+      <app-product-item [productItem]="product" [addedToWishlist]="wishlist.indexOf(product.id) >= 0"> </app-product-item>
 
 
           </div>

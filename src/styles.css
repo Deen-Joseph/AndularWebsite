@@ -26,3 +26,12 @@
 .product-btn{
     font-size: x-small;
 }
+
+.fa-heart{
+    color: palevioletred;
+    cursor: pointer;
+}
+
+/* .nav-bar2{
+    align:left
+} */
